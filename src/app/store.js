@@ -1,8 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { ammenitiesReducer } from '../slices/ammenitiesSlice';
+import { roomsReducer } from '../slices/roomsSlice';
+
+
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    rooms: roomsReducer,
+    ammenities: ammenitiesReducer
+    
   },
 });

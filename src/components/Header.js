@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 const Header =()=>{
   const[menuOpen, setMenuOpen]=useState(false);
     return(
-        <Navbar dark  sticky="top" expand="md">
+        <Navbar light className='bg-layout'  sticky="top" expand="md">
           <NavbarBrand href="/" className='ms-5'>
             <h1 className='mt-1'>Green Palms Hotel</h1>
           </NavbarBrand>
@@ -24,8 +24,32 @@ const Header =()=>{
                 <NavLink className='nav-link' to='/'>
                     Home
                 </NavLink>
-
               </NavItem>
+
+              <NavItem>
+                <NavLink className='nav-link' to='/rooms'>
+                    Accomodations
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink className='nav-link' to='/ammenities'>
+                    Ammenities
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink className='nav-link' to='/contact'>
+                    Contact
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink className='nav-link' to='/reservation'>
+                    Reservation
+                </NavLink>
+              </NavItem>
+
             </Nav>
           </Collapse>
       </Navbar>

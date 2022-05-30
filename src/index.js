@@ -12,7 +12,7 @@ import 'bootstrap-social/bootstrap-social.css';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-document.body.style = 'background: black;';
+document.body.style = 'background: rgb(244, 248, 253);';
 
 root.render(
   <React.StrictMode>

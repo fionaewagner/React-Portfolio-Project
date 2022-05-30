@@ -1,0 +1,36 @@
+import Pool from '../imgs/hotel-pool-two.jpeg'
+import Gym from '../imgs/hotel-gym.jpeg'
+import Breakfast from '../imgs/hotel-breakfast.jpeg'
+
+export const AMMENITIES = [
+    {
+        id:0,
+        name: 'Luxury Pool & Spa',
+        image: Pool,
+        description: `Make your getaway truly relaxing with our onsite pool 
+        and spa. This luxurious space features a
+        balmy heated indoor pool and beautiful outdoor garden veiws 
+     with full-length windows. Towels are provided, lockers and showers 
+ are also availbe. See the front coutner for locker rentals.`
+    },
+    {
+        id:1,
+        name: 'Fitness Center',
+        image: Gym,
+        description: `No excuses to miss a workout with our complimentary Fitness Center. 
+        We offer a wide variety of Free-Weights, two high-end Treadmills,
+         an Elliptical Trainer and a Stationary Bike. Excercise bands and yoga mats are also available.`
+    },
+    {
+        id:2,
+        name: 'Conventional Breakfast',
+        image: Breakfast,
+        description: `Free, hot breakast is served every morning at Eight
+        AM in our spacious dining area complete with 
+        comfortable seating and multiple HDTVs for your 
+        veiwing pleasure. Join us for favorites like 
+        waffles, bacon, eggs, oatmeal, and many 
+        others.`
+    }
+    
+]

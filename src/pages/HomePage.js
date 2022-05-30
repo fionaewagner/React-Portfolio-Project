@@ -1,7 +1,14 @@
 import { Container, Row } from "reactstrap"
+import Hotelpic from '../imgs/hotel-main-pic.jpg'
+import '../styles.css'
+
 
 const HomePage = () =>{
     return(
+        <>
+        <div className="paralax">
+            
+        </div>
         <Container>
             <Row>
                 <h1>Green Palms Hotel</h1>
@@ -16,6 +23,8 @@ const HomePage = () =>{
                 </p>
             </Row>
         </Container>
+        
+        </>
     )
 
 }

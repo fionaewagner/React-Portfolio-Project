@@ -7,6 +7,7 @@ import RoomsPage from './pages/RoomsPage';
 import AmmenitiesPage from './pages/AmmenitiesPage';
 import ContactPage from './pages/ContactPage';
 import ReservationPage from './pages/ReservationPage';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='contact' element={<ContactPage/>}/>
         <Route path='reservation' element={<ReservationPage/>}/>
       </Routes>
+      <Footer/>
       
     </div>
   );

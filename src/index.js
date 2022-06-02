@@ -8,6 +8,7 @@ import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-social/bootstrap-social.css';
+import "@fontsource/amiko"
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -18,7 +19,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <App />
+        <App/>
       </BrowserRouter>
     </Provider>
   </React.StrictMode>

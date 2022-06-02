@@ -6,6 +6,7 @@ import '../styles.css'
 const ContactPage =()=>{
     return(
         <>
+            <div className="paralax-four"/>
             <Container>
                 <Row>
                     <Col className='mb-3'>
@@ -37,7 +38,7 @@ const ContactPage =()=>{
                         <a href={"https://www.facebook.com/"}>Facebook</a>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="row-content">
                     <Col>
                         <img src={Beach} height="500" width="365"/> 
                         <img src={Spa}  height="500"width="365"/> 

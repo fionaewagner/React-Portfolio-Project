@@ -8,6 +8,11 @@
 a{
     color:aliceblue;
 }
+a:hover{
+    color:rgb(205, 205, 205) !important;
+    text-decoration: none;
+}
+
 
 .navbar h6{
     margin-top: -10px;

@@ -10,7 +10,7 @@ const Footer = ()=>{
                         <h4>Contact</h4>
                     </Col>
                 </Row>
-                <Row>
+                <Row >
                     <Col>
                         <p>202-555-0138</p>
                     </Col>

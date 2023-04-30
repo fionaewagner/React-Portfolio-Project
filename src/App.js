@@ -8,6 +8,8 @@ import AmmenitiesPage from './pages/AmmenitiesPage';
 import ContactPage from './pages/ContactPage';
 import ReservationPage from './pages/ReservationPage';
 import Footer from './components/Footer';
+import RegisterPage from './pages/RegisterPage';
+import MyReservations from './pages/MyReservations';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path='ammenities' element={<AmmenitiesPage/>}/>
         <Route path='contact' element={<ContactPage/>}/>
         <Route path='reservation' element={<ReservationPage/>}/>
+        <Route path='reg' element={<RegisterPage/>}/>
+        <Route path='user' element={<MyReservations/>}/>
       </Routes>
       <Footer/>
       

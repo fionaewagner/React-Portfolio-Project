@@ -7,6 +7,7 @@ import "react-datepicker/dist/react-datepicker.css"
 import { selectAllRooms } from "../slices/roomsSlice"
 import { useSelector } from 'react-redux';
 import '../styles.css'
+import { createBooking } from '../api/booking';
 
 
 const ReservationPage =()=>{
@@ -29,12 +30,9 @@ const ReservationPage =()=>{
             room: ""
          }}
           validate={(props, a) => console.log('a',props, a)}
-          onSubmit={(values,{ setSubmitting, resetForm }) => {
-            setTimeout(() => {
-              console.log(values)
-              setSubmitting(false);
-              window.location.reload()
-            }, 400);
+          onSubmit={(values) => {
+            console.log(values.startDate)
+            //createBooking(values.room, values.startDate, values.departDate)
 
           }}
 
